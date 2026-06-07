@@ -375,7 +375,6 @@ npm start
 ## 📞 Contact
 
 Nếu có thắc mắc về technical implementation, xem:
-- **`doc/ScriptSummary.md`** - Code breakdown chi tiết
 - **`scene-brief-ai/REPORT.md`** - AI usage report
 
 ---
