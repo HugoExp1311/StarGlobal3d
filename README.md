@@ -48,6 +48,7 @@ Mở trình duyệt tại: **http://localhost:3000**
 
 ---
 
+
 ## ✨ Demo nhanh
 
 1. Click nút **"Căn hộ cao cấp"** để auto-fill form
@@ -58,6 +59,30 @@ Mở trình duyệt tại: **http://localhost:3000**
    - Điểm nổi bật (highlights)
    - Lưu ý số hóa 3D
    - Từ khóa SEO
+
+---
+
+## 📸 Manual Testing Screenshots
+
+### 1. Form Validation - Empty Fields
+![Validation Empty](screenshot_img/validtrong.png)
+*Kiểm tra validation khi submit form trống - Error messages hiển thị đầy đủ*
+
+### 2. Loading State
+![Loading State](screenshot_img/loading.png)
+*Loading spinner hiển thị khi đang generate content với AI*
+
+### 3. AI Generated Content
+![AI Content Results](screenshot_img/content.png)
+*Kết quả generate từ Gemini AI với badge xanh - Hiển thị title, description, highlights, digitization notes, và SEO keywords*
+
+### 4. Mock AI Fallback
+![Mock AI Fallback](screenshot_img/mockdata.png)
+*Mock AI fallback tự động kích hoạt khi Gemini API không khả dụng - Notice màu vàng hiển thị*
+
+### 5. JSON Viewer
+![JSON Viewer Expanded](screenshot_img/jsonex.png)
+*Raw JSON response viewer - Collapsible section để xem chi tiết API response*
 
 ---
 
